@@ -2,7 +2,7 @@ import tailwindConfig from "@/tailwind.config";
 
 
 
-export default function InformeCentros(){
+export default function InhtmlFormeCentros(){
     return (
         
 

@@ -2,7 +2,7 @@ import tailwindConfig from "@/tailwind.config";
 
 
 
-export default function InformeMunDistrital(){
+export default function InhtmlFormeMunDistrital(){
     return (
         
 
