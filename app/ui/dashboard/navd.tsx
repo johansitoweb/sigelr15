@@ -1,6 +1,5 @@
 import tailwindConfig from "@/tailwind.config";
-import Link from 'next/link';
-
+import Link from 'next/link'
 
 
 export default function Nav(){
@@ -15,41 +14,11 @@ export default function Nav(){
     </div>
     <div className="hidden md:block">
       <div className="ml-10 flex items-baseline space-x-4">
-        <Link 
-          className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-          href="#"
-        >
-          Home
-        </Link>
-
-        <Link 
-          className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-          href="#"
-        >
-          About Us
-        </Link>
-
-        <Link 
-          className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-          href="#"
-        >
-          Celider Distritales
-        </Link>
-
-        <Link 
-          className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-          href="#"
-        >
-          Contact us
-        </Link>
-
-        <Link 
-          className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-          href="/Dashboard"
-        >
-          Dashboard
-        </Link>
-        
+        <Link href="/" className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white" aria-current="page">Home</Link>
+        <Link href="/Dashboard/Informes" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Informes</Link>
+        <Link href="/Dashboard/MunDistrital" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">MUN Distrital</Link>
+        <Link href="/Dashboard/SubirDatos" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Subir Datos</Link>
+        <Link href="/Dashboard/Reportes" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Reportes</Link>
       </div>
     </div>
   </div>
@@ -69,12 +38,12 @@ export default function Nav(){
               <button type="button" className="relative flex max-w-xs items-center rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
                 <span className="absolute -inset-1.5"></span>
                 <span className="sr-only">Open user menu</span>
-                <img className="size-8 rounded-full" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.es%2Fvector-premium%2Ficono-perfil-usuario-estilo-plano-ilustracion-vector-avatar-miembro-sobre-fondo-aislado-concepto-negocio-signo-permiso-humano_44276367.htm&psig=AOvVaw0m0X_FGwMAjsw_dMxP8Tyt&ust=1737991106116000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKDP7MbXk4sDFQAAAAAdAAAAABAE" alt="" />
+                <img className="size-8 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=htmlFormat&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
               </button>
             </div>
+            
 
-
-            <div className="hidden right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black/5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" >
+            <div className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black/5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" >
 
               <a href="#" className="block px-4 py-2 text-sm text-gray-700" role="menuitem"  id="user-menu-item-0">Your Profile</a>
               <a href="#" className="block px-4 py-2 text-sm text-gray-700" role="menuitem"  id="user-menu-item-1">Settings</a>
@@ -144,7 +113,7 @@ export default function Nav(){
         
           <header className="bg-white shadow">
             <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-              <h1 className="text-3xl font-bold tracking-tight text-gray-900">Celider 15</h1>
+              <h1 className="text-3xl font-bold tracking-tight text-gray-900">CELIDER 15-03</h1>
             </div>
           </header>
         </div>
