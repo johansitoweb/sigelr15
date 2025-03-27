@@ -5,7 +5,7 @@ import HojaEvaluacion from "./ui/HojaEvaluacion";
 import styles  from "home.module.css";
 import Link from "next/link";
 import Nav from "./ui/nav";
-
+import Practica from "./ui/dashboard/practica";
 
 export default function Home() {
 return (
@@ -22,7 +22,8 @@ return (
 
         <SectHome></SectHome>
         <HojaEvaluacion></HojaEvaluacion>
-
+        <Practica initialCount = {true} ></Practica>
+        <Practica initialCount = {false} ></Practica>
     </div>
   </main>
 

@@ -1,8 +1,9 @@
-export default function page() {
+export default async function Page() {
+   
+   return (
+      <p>reportes</p>
 
-    return (
-       <p>Reportes</p>
-    );
-    
-    
-    };
+   )
+   
+   
+ };

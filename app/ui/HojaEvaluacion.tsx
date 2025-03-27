@@ -45,7 +45,7 @@ export default function HojaEvaluacion(){
                     Or <span className="text-black-800">8%</span>
                 </th>
                 <th scope="col" className="px-6 py-3">
-                    Arg<span className="text-black-800">8%</span>
+                    Arg <span className="text-black-800">8%</span>
                 </th>
                 <th scope="col" className="px-6 py-3">
                     Dis <span className="text-black-800">6%</span>
@@ -88,44 +88,44 @@ export default function HojaEvaluacion(){
                 <td className="px-6 py-4">
                     Argentina
                 </td>
-                <td className="px-6 py-4">
-                    0
+                <td className="px-6 py-4 ">
+                    <input type="text" placeholder="0" className="w-5"/>
                 </td>
                 <td className="px-6 py-4">
-                    0
+                    <input type="text" placeholder="0" className="w-5"/>
                 </td>
                 <td className="px-6 py-4">
-                    0
+                    <input type="text" placeholder="0" className="w-5"/>
                 </td>
                 <td className="px-6 py-4">
-                    0
+                    <input type="text" placeholder="0" className="w-5"/>
                 </td>
                 <td className="px-6 py-4">
-                    0
+                    <input type="text" placeholder="0" className="w-5"/>
                 </td>
                 <td className="px-6 py-4">
-                    0
+                    <input type="text" placeholder="0" className="w-5"/>
                 </td>
                 <td className="px-6 py-4">
-                    0
+                    <input type="text" placeholder="0" className="w-5"/>
                 </td>
                 <td className="px-6 py-4">
-                    0
+                    <input type="text" placeholder="0" className="w-5"/>
                 </td>
                 <td className="px-6 py-4">
-                    0
+                    <input type="text" placeholder="0" className="w-5"/>
                 </td>
                 <td className="px-6 py-4">
-                    0
+                    <input type="text" placeholder="0" className="w-5"/>
                 </td>
                 <td className="px-6 py-4">
-                    0
+                    <input type="text" placeholder="0" className="w-5"/>
                 </td>
                 <td className="px-6 py-4">
-                    0
+                    <input type="text" placeholder="0" className="w-5"/>
                 </td>
                 <td className="px-6 py-4">
-                    0
+                    <input type="text" placeholder="0" className="w-5"/>
                 </td>
                 <td className="px-6 py-4">
                     <textarea
